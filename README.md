@@ -1,4 +1,4 @@
 # film-lists
 
 
-![Preview Image]('./img/preview.jpg)
+![Preview Image]('preview.jpg)
