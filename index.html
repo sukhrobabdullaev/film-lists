@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Lists</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <div class="container">
+        <h1>Welcome to Film Lists</h1>
+        <h3>Here you go! let's type your favourite films..</h3>
+      </div>
+    </header>
+    <!-- main section -->
+    <main id="forms">
+      <div class="container">
+        <h4>Select existing films and Add your film lists and sort it out!</h4>
+        <form action="#" id="addForm">
+          <input type="text" id="input" placeholder="type film's name" />
+          <input class="btn" type="submit" value="Add" />
+        </form>
+      </div>
+    </main>
+    <!-- films section -->
+    <section id="film_lists">
+      <div class="container">
+        <ul class="film_list-contents">
+          <!-- <li>film 1 <i class="fa fa-trash"></i></li>
+          <li>film 2 <i class="fa fa-trash"></i></li>
+          <li>film 3 <i class="fa fa-trash"></i></li>
+          <li>film 4 <i class="fa fa-trash"></i></li> -->
+        </ul>
+      </div>
+    </section>
+    <!-- favourites section -->
+    <section id="favorites">
+      <div class="container">
+        <h4>My Favourites</h4>
+        <ul class="film_list-contents favorites">
+          <!-- <li>film 1 <i class="fa fa-trash"></i></li> -->
+          <!-- <li>film 2 <i class="fa fa-trash"></i></li>
+          <li>film 3 <i class="fa fa-trash"></i></li>
+          <li>film 4 <i class="fa fa-trash"></i></li> -->
+        </ul>
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

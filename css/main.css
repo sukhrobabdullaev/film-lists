@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(134, 104, 245, 1) 11%,
+    rgba(255, 0, 255, 1) 100%
+  );
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* heade section */
+
+header {
+  margin-top: 30px;
+  padding: 30px;
+  font-weight: 800;
+  line-height: 1.8rem;
+  color: #2206c2;
+}
+/* main secion */
+#forms {
+  padding: 30px;
+  margin: 2rem;
+  font-size: 20px;
+  color: #ffffff;
+}
+#forms h4 {
+  margin-bottom: 20px;
+}
+input#input {
+  width: 60%;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #d4741a;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+input#input::placeholder {
+  color: rgb(187, 155, 247);
+  font-family: cursive;
+}
+input#input:focus {
+  border: 1px solid #cf14c6;
+}
+
+input.btn {
+  color: rgb(170, 131, 243);
+  font-family: cursive;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #2e0cf3;
+  cursor: pointer;
+  font-size: 16px;
+}
+input.btn:active {
+  transform: scale(0.95);
+}
+/* film lists */
+#film_lists {
+  padding: 30px;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #d4741a;
+  font-weight: bold;
+  background-color: #fff;
+  /* flex-basis: 60%; */
+  margin: 3px auto;
+  text-align: left;
+  padding: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+ul li .fa-trash {
+  color: #cf14c6;
+}
+
+
+/* ul li .hover {
+  opacity: 0;
+  transition: all 0.2s;
+}
+ul li .hover:hover {
+  opacity: 1;
+} */
+.red {
+    color: red;
+}
+/* Favourites */
+#favorites h4{
+    color: #f31010;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
